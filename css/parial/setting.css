@@ -1,0 +1,14 @@
+@font-face {
+    font-family: iranbold;
+    src: url(../../font/IRANSansX-Bold.woff);
+}
+
+@font-face {
+    font-family: iranmedium;
+    src: url(../../font/IRANSansX-Medium.woff);
+}
+
+@font-face {
+    font-family: iranreg;
+    src: url(../../font/IRANSansX-Regular.woff);
+}

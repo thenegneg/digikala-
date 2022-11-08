@@ -1,0 +1,81 @@
+
+div.container02>div.dastebandi {
+width: 100%;
+height: 500px;
+background-color: rgb(254, 254, 254);
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 16px;
+padding-bottom: 40px;
+margin-top: 24px;
+margin-right: auto;
+margin-left: auto;
+position: relative;
+}
+
+div.container02>div.dastebandi>div.tittle{
+width: 20%;
+height: 50px;
+font-family: iranreg;
+font-size: 1.2vw;
+text-align: center;
+font-weight: 700;
+line-height: 2.17;
+margin-right: auto;
+margin-left: auto;
+}
+
+div.container02>div.dastebandi>div.dimg{
+width: 15%;
+height: 220px;
+margin: 11px;
+float: left;
+position: relative;
+}
+
+div.container02>div.dastebandi>div.dimg>a>p {
+font-size: 12px;
+font-family: iranbold;
+width: 170px;
+height: 20px;
+background-color: #ffffff;
+color: black;
+text-align: center;
+position: absolute;
+bottom: 5px;
+left: 15px;
+}
+
+div.container02>div.dastebandi>div.dimg>a>img {
+width: 100%;
+position: absolute;
+top: -8px;
+}
+
+div.container02>div.dastebandi>div.dimg-4{
+width: 15%;
+height: 220px;
+margin: 11px;
+float: left;
+position: relative;
+left: 110px;
+}
+
+div.container02>div.dastebandi>div.dimg-4>a>p {
+font-size: 12px;
+font-family: iranbold;
+width: 170px;
+height: 20px;
+background-color: #ffffff;
+color: black;
+text-align: center;
+position: absolute;
+bottom: 5px;
+left: 15px;
+}
+
+div.container02>div.dastebandi>div.dimg-4>a>img {
+width: 100%;
+position: absolute;
+top: -8px;
+}

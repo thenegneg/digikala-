@@ -1,0 +1,49 @@
+div.container02 > div.brand {
+width: 99%;
+height: 220px;
+padding: 16px 16px 0 16px;
+border: 1px solid rgb(182, 182, 182);
+border-radius: 15px;
+position: relative;
+left: calc(50% - 102% / 2);
+}
+
+div.container02 > div.brand > div.tittle {
+width: 20%;
+height: 50px;
+font-family: iranreg;
+font-size: 1.2vw;
+text-align: center;
+font-weight: 700;
+line-height: 2.17;
+margin-right: auto;
+margin-left: auto;
+}
+
+div.container02 > div.brand > div.sb > div.swiper {
+height: 145px !important;
+}
+
+div.height02 {
+height: 500px !important;
+}
+
+div.container02> div.brand> div.sb> div.swiper> div.swiper-wrapper> div.swiper-slide {
+height: 20%;
+position: relative;
+top: -5px;
+background-color: white;
+border-left: 2px solid rgba(216, 216, 216, 0.482);
+}
+
+div.container02> div.brand > div.sb> div.swiper> div.swiper-wrapper> div.swiper-slide> a {
+width: 100%;
+height: 100%;
+}
+
+div.container02> div.brand > div.sb > div.swiper> div.swiper-wrapper> div.swiper-slide > a> img {
+width: 70%;
+position: absolute;
+top: 10px;
+left: calc(50% - 70% / 2);
+}

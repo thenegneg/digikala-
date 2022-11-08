@@ -1,0 +1,60 @@
+/*
+version:1.0.0
+author:negneg
+*/
+@import url(./parial/setting.css);
+@import url(./parial/head.css);
+@import url(./parial/menu.css);
+@import url(./parial/slider.css);
+@import url(./parial/shortcut.css);
+@import url(./parial/shegeft.css);
+@import url(./parial/parts.css);
+@import url(./parial/dastebandi.css);
+@import url(./parial/pishnahad.css);
+@import url(./parial/brand.css);
+@import url(./parial/products.css);
+@import url(./parial/plus.css);
+@import url(./parial/club.css);
+@import url(./parial/porforosh.css);
+@import url(./parial/montakhab.css);
+@import url(./parial/mag.css);
+@import url(./parial/footer.css);
+* {
+direction: rtl;
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+margin: 0;
+padding: 0;
+background-size: cover;
+}
+
+div.all-head{
+margin-top: 90px;
+}
+
+div.container01 {
+width: 90%;
+height: auto;
+background-color: rgb(255, 255, 255);
+padding: 0 16px;
+padding-bottom: 10px;
+margin-right: auto;
+margin-left: auto;
+}
+
+div.container02 {
+width: 91.5%;
+height: auto;
+background-color: rgb(255, 255, 255);
+padding-left: 16px;
+padding-right: 16px;
+margin-right: auto;
+margin-left: auto;
+position: relative;
+}

@@ -1,0 +1,44 @@
+/*
+4 part
+*/
+div.container02>div.forpart {
+width: 23%;
+height: 235px;
+display: inline-block;
+margin: 20px 12px;
+}
+
+div.container02>div.forpart>a>img{
+width: 100%;
+border-radius: 15px;
+}
+
+/*
+2 part
+*/
+div.container02>div.towpart {
+width: 49.5%;
+display: inline-block;
+position: relative;
+top: 15px;
+left: calc(50% - 102% / 2);
+}
+
+div.container02>div.towpart>a>img {
+width: 100%;
+border-radius: 15px;
+}
+
+/*
+1 part
+*/
+div.container02>div.onepart{
+width: 100%;
+border-radius: 15px;
+margin-top: 25px;
+}
+
+div.container02>div.onepart>a>img{
+width: 100%;
+border-radius: 15px;
+}

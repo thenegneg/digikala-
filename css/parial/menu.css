@@ -1,0 +1,228 @@
+div.menu {
+width: 100%;
+height: 40px;
+position: relative;
+top: 122px;
+z-index: 2;
+}
+
+div.menu > nav {
+width: inherit;
+height: inherit;
+}
+
+div.menu > nav > div.right {
+width: 87%;
+height: inherit;
+}
+
+div.menu > nav > div.right > ul {
+width: inherit;
+height: inherit;
+padding: 0 15px;
+}
+
+div.menu > nav > div.right > ul > li {
+width: auto;
+height: inherit;
+display: inline-block;
+position: relative;
+}
+
+div.menu > nav > div.right > ul > li > a {
+display: block;
+width: inherit;
+line-height: 40px;
+text-transform: capitalize;
+font-family: iranbold;
+font-size: 14px;
+padding: 0 12px;
+color: rgb(50, 46, 46);
+transition: 100ms;
+}
+
+div.menu > nav > div.right > ul > li.color > a {
+color: rgb(122, 118, 118);
+font-size: 12px;
+}
+
+div.menu > nav > div.right > ul > li > a:hover {
+border-bottom: 2px solid red;
+}
+
+div.menu > nav > div.right > ul > li > a > img {
+width: 12px;
+margin-left: 5px;
+vertical-align: middle;
+}
+
+div.menu > nav > div.right > ul > li.color > a > img {
+width: 20px;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu {
+width: 97vw;
+height: calc(100vh - 175px);
+box-shadow: 1px 20px 30px rgba(86, 86, 86, 0.69);
+position: absolute;
+display: none;
+border-radius: 0 0 15px 15px;
+right: 10px;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li:hover > div.submenu {
+display: block;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright {
+width: 15%;
+height: inherit;
+border-left: 1px solid rgb(231, 231, 231);
+display: inline-block;
+background-color: white;
+border-radius: 0 0 15px 15px;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul {
+width: 100%;
+height: inherit;
+background-color: white;
+border-radius: 0 0 15px 15px;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li {
+width: inherit;
+height: 40px;
+margin-bottom: 10px;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li >a{
+display: block;
+width: inherit;
+line-height: 40px;
+text-transform: capitalize;
+font-family: iranbold;
+font-size: 12px;
+padding: 0 12px;
+color: rgb(50, 46, 46);
+transition: 100ms;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li >a:hover{
+background-color: rgba(231, 224, 224, 0.764);
+color: rgb(243, 67, 67);
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li >a>img{
+width: 16px;
+margin-left: 5px;
+vertical-align: middle;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links{
+width: calc(100% - 15%);
+height: calc(100vh - 175px);
+position: absolute;
+left: 0;
+display: none;
+top: 0;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li:hover>div.links{
+display: block;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.full{
+display: block;
+width: 100%;
+height: 40px;
+line-height: 40px;
+text-transform: capitalize;
+font-family: iranbold;
+font-size: 13.5px;
+padding: 0 12px;
+color: rgb(143, 139, 139);
+transition: 100ms;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.first,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.secund,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.third,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fourth,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fifth{
+width: 19.5%;
+height: calc(100% - 40px);
+display: inline-block;
+vertical-align: top;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.first>ul,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.secund>ul,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.third>ul,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fourth>ul,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fifth>ul{
+width: 100%;
+height: inherit;
+padding: 0 10px;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.first>ul>li,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.secund>ul>li,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.third>ul>li,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fourth>ul>li,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fifth>ul>li{
+width: inherit;
+height: 25px;
+margin-bottom: 10px;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.first>ul>li>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.secund>ul>li>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.third>ul>li>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fourth>ul>li>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fifth>ul>li>a{
+display: block;
+width: inherit;
+height: 20px;
+line-height: 20px;
+text-transform: capitalize;
+font-family: iranbold;
+font-size: 12px;
+padding: 0 12px;
+color: rgb(151, 151, 151);
+transition: 100ms;
+margin-bottom: 0%;
+background-color: white;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.first>ul>li.tittle>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.secund>ul>li.tittle>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.third>ul>li.tittle>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fourth>ul>li.tittle>a,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fifth>ul>li.tittle>a{
+color: black;
+font-size: 13.5px;
+margin-top: 15px;
+margin-bottom: 0%;
+border-right: 2px solid red;
+}
+
+div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.first>ul>li>a:hover,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.secund>ul>li>a:hover,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.third>ul>li>a:hover,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fourth>ul>li>a:hover,div.menu > nav > div.right > ul > li > div.submenu > div.mright > ul > li>div.links>div.fifth>ul>li>a:hover{
+color: rgb(243, 67, 67);
+}
+
+div.menu > nav > div.left {
+width: 13%;
+height: inherit;
+position: absolute;
+top: 0%;
+right: 87%;
+}
+
+div.menu > nav > div.left>a{
+width: inherit;
+line-height: 40px;
+text-transform: capitalize;
+font-family: iranbold;
+font-size: 12px;
+padding: 0 12px;
+color: rgb(122, 118, 118);
+transition: 100ms;
+}
+
+div.menu > nav > div.left>a>img{
+width: 20px;
+margin-left: 5px;
+vertical-align: middle;
+}

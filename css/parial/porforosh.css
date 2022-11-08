@@ -1,0 +1,76 @@
+div.porfrosh {
+width: 100%;
+height: auto;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 16px;
+padding-bottom: 40px;
+margin-top: 24px;
+margin-right: auto;
+margin-left: auto;
+border: 1px solid rgb(182, 182, 182);
+border-radius: 15px;
+}
+
+div.porfrosh >div.tittle {
+width: 20%;
+height: 50px;
+font-family: iranreg;
+font-size: 1.2vw;
+text-align: center;
+font-weight: 700;
+line-height: 2.17;
+margin: 20px auto;
+}
+
+div.porfrosh>div.swiper{
+height: 300px !important;
+}
+
+div.porfrosh>div.swiper>div.swiper-wrapper>div.swiper-slide{
+height: 20%;
+top: calc(50% - 85% / 2);
+background-color: white;
+border-left: 2px solidrgba(216, 216, 216, 0.482);
+}
+
+div.porfrosh>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+width: 350px;
+height: 96px;
+border-bottom: 1px solid rgb(230, 230, 230);
+padding: 5px;
+margin-bottom: 5px;
+}
+
+div.porfrosh>div.swiper>div.swiper-wrapper>div.swiper-slide>a>img {
+width: 25%;
+vertical-align: top;
+position: relative;
+top: 0px;
+}
+
+div.porfrosh>div.swiper>div.swiper-wrapper>div.swiper-slide>a>p.number{
+display: inline-block;
+vertical-align: top;
+font-size: 30px;
+font-weight: 600;
+color: #39c8d9;
+font-family: iranbold;
+position: absolute;
+right: 28%;
+top: 5px;
+}
+
+div.porfrosh>div.swiper>div.swiper-wrapper>div.swiper-slide>a>p.text{
+width: 180px;
+line-height: 30px;
+display: inline-block;
+vertical-align: top;
+color: rgb(56, 56, 56);
+font-family: iranmedium;
+font-size: 13px;
+position: absolute;
+right: 38%;
+top: 10px;
+text-align: right;
+}

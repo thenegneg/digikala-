@@ -1,0 +1,103 @@
+div.container02>div.montakhab {
+width: 100%;
+height: auto;
+border: 1px solid rgb(182, 182, 182);
+border-radius: 15px;
+margin-top: 20px;
+display: inline-block;
+padding: 5px;
+}
+
+div.container02>div.montakhab>div.tittle {
+width: 30%;
+height: 50px;
+font-family: iranreg;
+font-size: 1.2vw;
+text-align: center;
+font-weight: 700;
+line-height: 2.17;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 1%;
+}
+
+div.container02>div.montakhab>a{
+position: relative;
+}
+
+div.container02>div.montakhab>a>div.img{
+width: 16.4%;
+height: 243px;
+vertical-align: top;
+display: inline-block;
+margin-top: 20px;
+position: relative;
+border-right: 1px solid rgb(216, 216, 216);
+border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+div.container02>div.montakhab>a>div.img>img{
+width: 70%;
+margin: 0 auto;
+display: block;
+}
+
+div.container02>div.montakhab>a>div.img>div.price>p{
+position: absolute;
+bottom: 20px;
+left: 5px;
+font-family: iranbold;
+font-size: 14px;
+width: 60%;
+color: black;
+text-align: left;
+}
+
+div.container02>div.montakhab>a>div.img>div.per>p{
+position: absolute;
+bottom: 0px;
+left: 50px;
+font-family: iranbold;
+font-size: 13px;
+color: rgb(177, 174, 174);
+}
+
+div.container02>div.montakhab>a>div.img>div.off{
+position: absolute;
+bottom: 20px;
+right: 10px;
+width: 18%;
+background-color: #ef3f55;
+border-radius: 25px;
+text-align: center;
+}
+
+div.container02>div.montakhab>a>div.img>div.off>p{
+font-family: iranbold;
+font-size: 14px;
+color: white;
+text-decoration: none;
+}
+
+div.container02>div.montakhab>div.text{
+width: 100%;
+height: auto;
+text-align: center;
+margin: 30px 0 15px 0;
+}
+
+div.container02>div.montakhab>div.text>a>p{
+font-family: iranbold;
+position: relative;
+bottom: 7px;
+color: #27cee0;
+font-size: 14px;
+}
+
+.noright{
+border-right: none !important;
+}
+
+.nobottom{
+border-bottom: none !important;
+}

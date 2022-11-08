@@ -1,0 +1,167 @@
+div.header {
+width: 100%;
+height: 60px;
+position: fixed;
+z-index: 3;
+}
+
+div.header > a > img {
+width: 100%;
+}
+
+div.hb-full {
+width: 100%;
+position: fixed;
+top: 53px;
+z-index: 3;
+background-color: rgb(255, 255, 255);
+border-bottom: 1.5PX solid #cfcfcf;
+box-shadow: 5px 0.5px 5px #dcdcdc;
+}
+
+div.hb-full > div.bh-01 {
+width: 98%;
+height: 68px;
+padding-left: 16px;
+padding-right: 16px;
+right: calc(50% - 98% / 2);
+}
+
+div.hb-full > div.bh-01 > div.bh-02 {
+width: 100%;
+height: 44px;
+padding-top: 12px;
+padding-bottom: 12px;
+position: relative;
+top: calc(50% - 44px / 2);
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.right {
+width: 76%;
+height: 44px;
+display: inline block;
+position: absolute;
+top: 0;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.right>div.sfull {
+width: 89.52%;
+height: 44px;
+background-color: rgb(255, 255, 255);
+display: inline block;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.right>div.sfull >div.logo {
+width: 12%;
+height: 44px;
+margin-left: 99%;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.right>div.sfull >div.logo>a>img{
+margin-top: 8px;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.right>div.sfull>div.search {
+width: 55%;
+height: 44px;
+background-color: #f0f0f1;
+display: inline block;
+border-radius: 7px;
+position: absolute;
+top: 0;
+right: 12%;
+padding: 0 15px;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.right>div.sfull>div.search> p {
+font-family: iranbold;
+color: rgb(156, 156, 156);
+font-size: 12px;
+font-weight: 700;
+line-height: 2.17;
+position: absolute;
+top: 10px;
+right: 50px;
+display: inline-block;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.right>div.sfull>div.search>a> img {
+width: 20px;
+position: absolute;
+top: 12px;
+right: 15px;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.left {
+width: 24%;
+height: 44px;
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.left>div.signin {
+width: 40%;
+height: 38px;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(168, 168, 168);
+border-radius: 7px;
+position: absolute;
+right: 50%;
+top: calc(50% - 38px /2);
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.left>div.signin > a{
+font-family: iranmedium;
+color: rgb(156, 156, 156);
+font-size: 12px;
+font-weight: 700;
+line-height: 2.17;
+position: absolute;
+top: 6px;
+right: 45px;
+display: inline-block;
+color: black;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.left>div.signin > a>img {
+width: 25px;
+position: absolute;
+top: 0;
+left: 75px;
+vertical-align: top;
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.left>div.icon {
+width: 17%;
+height: 30px;
+border-right: 1px solid rgb(234, 233, 233);
+position: absolute;
+left: -10%;
+top: calc(50% - 30px /2);
+}
+
+div.hb-full > div.bh-01 > div.bh-02>div.left> div.icon > a > img {
+width: 24px;
+height: 24px;
+position: absolute;
+left: 20px;
+top: 3px;
+}
+
+div.operator{
+position: fixed;
+bottom: 10px;
+left: 30px;
+width: 48px;
+height: 48px;
+background-color: #ef3f55;
+z-index: 3;
+border-radius: 50%;
+}
+
+div.operator>a>img{
+width: 70%;
+margin: 9px 5px 0 0;
+}

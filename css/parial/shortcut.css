@@ -1,0 +1,100 @@
+div.container01 >div.shortcut {
+width: 100%;
+height: 80px;
+margin: 24px auto;
+padding: 0 12px;
+background-color: rgb(255, 255, 255);
+}
+
+div[data-shicon="jet"] {
+display: inline-block;
+width: 4.4%;
+height: 50px;
+margin: 0 50px;
+}
+
+div[data-shicon="jet"] img {
+width: 100%;
+}
+
+div[data-shicon="ds"] {
+display: inline-block;
+width: 4.4%;
+height: 50px;
+margin: 0 50px;
+}
+
+div[data-shicon="ds"] img {
+width: 100%;
+}
+
+div[data-shicon="pey"] {
+display: inline-block;
+width: 4.4%;
+height: 50px;
+margin: 0 50px;
+}
+
+div[data-shicon="pey"] img {
+width: 100%;
+}
+
+div[data-shicon="busines"] {
+display: inline-block;
+width: 4.4%;
+height: 50px;
+margin: 0 50px;
+}
+
+div[data-shicon="busines"] img {
+width: 100%;
+}
+
+div[data-shicon="suprise"] {
+width: 4.4%;
+height: 50px;
+margin: 0 50px;
+display: inline-block;
+}
+
+div[data-shicon="suprise"] img {
+width: 100%;
+}
+
+div[data-shicon="bakht"] {
+width: 4.4%;
+height: 50px;
+margin: 0 50px;
+display: inline-block;
+}
+
+div[data-shicon="bakht"] img {
+width: 100%;
+}
+
+div[data-shicon="plus"] {
+width: 4.4%;
+height: 50px;
+margin: 0 50px;
+display: inline-block;
+}
+
+div[data-shicon="plus"] img {
+width: 100%;
+}
+
+div[data-shicon="more"] {
+width: 4.4%;
+height: 55px;
+margin: 0 50px;
+background-color: rgb(226, 226, 226);
+display: inline-block;
+border: 1px solid rgb(168, 168, 168);
+border-radius: 50px;
+padding: 10px 9px;
+vertical-align: top;
+}
+
+div[data-shicon="more"] img {
+width: 35px;
+}
